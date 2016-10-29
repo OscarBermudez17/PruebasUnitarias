@@ -2,7 +2,7 @@
 class TddTests  extends PHPUnit_Framework_TestCase{
 	
 	
-		public function testcargar(){
+		public function test_cargar(){
 		//$valor= ""false"";
 
 		$variable = 'texto';
