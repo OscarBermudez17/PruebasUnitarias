@@ -9,7 +9,7 @@
     <mkdir dir="reports/logs"/>
   </target>
   <target name="phpunit">
-    <phpunit printsummary="true" haltonfailure="true" pharlocation="C:/xampp/php/pear/PHPUnit">
+    <phpunit printsummary="true" haltonfailure="true" pharlocation="C:\xampp\php">
       <formatter todir=".reports/logs" type="xml"/>
       <batchtest>
         <fileset dir="../">
