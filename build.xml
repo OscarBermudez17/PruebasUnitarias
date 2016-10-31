@@ -10,9 +10,9 @@
   </target>
   <target name="phpunit">
     <phpunit printsummary="true" haltonfailure="true" pharlocation="C:\xampp\php">
-      <formatter todir=".reports/logs" type="xml"/>
+      <formatter todir="reports/logs" type="xml"/>
       <batchtest>
-        <fileset dir="../">
+        <fileset dir="C:/xampp/htdocs/PruebasUnitariasPHPUnit/PruebasUnitarias/TddTests.php">
           <include name="C:/xampp/htdocs/PruebasUnitariasPHPUnit/PruebasUnitarias/TddTests.php"/>
         </fileset>
       </batchtest>
