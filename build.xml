@@ -12,8 +12,8 @@
     <phpunit printsummary="true" haltonfailure="true" pharlocation="C:/xampp/php">
       <formatter todir="reports/logs" type="xml"/>
       <batchtest>
-        <fileset dir="C:/xampp/htdocs/PruebasUnitariasPHPUnit/PruebasUnitarias/">
-          <include name="*TddTests.php"/>
+        <fileset dir="C:/xampp/htdocs/PruebasUnitariasPHPUnit/PruebasUnitarias">
+          <include name="*TestClaseCon.php"/>
         </fileset>
       </batchtest>
       <formatter type="xml" todir="reports" outfile="logfile.xml"/>
