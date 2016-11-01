@@ -5,9 +5,9 @@ class TddTests  extends PHPUnit_Framework_TestCase{
 		public function test_cargar(){
 		//$valor= ""false"";
 
-		$variable = 'texto';
+		$variable = 'stexto';
 
-         $this->assertEquals('texto', $variable);
+         $this->assertEquals('stexto', $variable);
 	
 		}
 
