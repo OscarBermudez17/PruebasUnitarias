@@ -14,10 +14,10 @@
 class Valor {
   
   private  $user;
- private $pass ;
+ private $pass ;  
  private $db ;
- private $host;
-   
+ private $host;  
+     
    
   public function  Valor(){
      
