@@ -28,9 +28,9 @@ $con=mysql_connect($dataValores->getHost(),$dataValores->getUser(),$dataValores-
      $con=null;
  }else{
 
- 	$con='valido';
+ 	$con='Correcto';
  }
- $this->assertEquals('valido', $con);
+ $this->assertEquals('Correcto', $con);
 
 } 
 }
